@@ -82,7 +82,10 @@ footer {
   background-color: #e5e5e5;
 }
 
-.page-section {}
+.page-section {
+
+
+}
 
 .frame--header {
   margin: 1rem 0;
@@ -146,13 +149,8 @@ footer {
   margin: 0 8rem;
 }
 
-.article--full__body {
-}
-
-
 
 .article--full__resume {
-
   font-weight: 500;
   font-size: 120%;
 }
@@ -293,27 +291,33 @@ section {
 }
 
 .article--full__share {
-margin: 2rem 0;
+  margin: 2rem 0;
+  display: block;
+  overflow: hidden;
 }
 
-.share-count {
-  margin-left: 10px;
+.icon-item--info {
+  position: relative;
+  margin: 0 15px 0 0;
   height: 30px;
   line-height: 30px;
   display: inline-block;
-  color: #aaa;
+  font-size: .9rem;
+  float: left;
+  border-left: 1px solid #ddd;
+  padding-left: 15px;
 
-  .share-count__num {
+  .icon-item--info__num {
     font-weight: $heading-font-weight;
-    color: $color__text;
   }
 }
-
 
 
 .icon-items {
   overflow: hidden;
   display: inline-block;
+  float: left;
+  margin-right: 10px;
 }
 
 .icon-item {
@@ -322,10 +326,6 @@ margin: 2rem 0;
   float: left;
   height: 30px;
   width: 30px;
-
-  &:last-child {
-    margin-right: 0;
-  }
 
   &:hover {
     text-decoration: none;
@@ -342,6 +342,12 @@ margin: 2rem 0;
 .icon-item__twitter {
   &:before {
       @include icon($icon__twitter);
+  }
+}
+
+.icon-item__instagram {
+  &:before {
+      @include icon($icon__instagram);
   }
 }
 
@@ -362,6 +368,29 @@ margin: 2rem 0;
       @include icon($icon__more-dropdown);
   }
 }
+
+.article--full__tags-group {
+
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-weight: $heading-font-weight;
+
+  &:before {
+    @include icon($icon__tag);
+    font-size: 1rem;
+  }
+
+  .article--full__tags {
+    display: inline;
+
+    a {
+      color: $color__text;
+      margin-left: 5px;
+    }
+  }
+
+}
+
 
 /* ARTICL--TEASER */
 

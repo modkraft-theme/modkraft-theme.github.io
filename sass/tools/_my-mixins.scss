@@ -31,7 +31,15 @@ $icon__twitter: '\e91c';
 $icon__facebook: '\e916';
 $icon__googleplus: '\e918';
 $icon__instagram: '\e919';
+
 $icon__more-dropdown: '\e917';
+$icon__forward: '\e91e';
+
+$icon__thumbs-up: '\e920';
+$icon__thumbs-down: '\e91f';
+
+$icon__massage: '\e911';
+$icon__typing: '\e912';
 
 $icon__donut: '\e915';
 $icon__search: '\e910';
@@ -43,6 +51,8 @@ $icon__circle-left: '\e90a';
 $icon__circle-right: '\e90b';
 
 $icon__camera: '\e91d';
+
+$icon__tag: '\e922';
 
 
 @mixin icon($icon) {
