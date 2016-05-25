@@ -56,3 +56,13 @@ a {
     -webkit-transition: color 0.5s ease-in-out;
   }
 }
+
+
+ul {
+  padding-left: 2rem;
+  margin-block-start: 1.8em;
+  margin-block-end: 1.8em;
+  li {
+    padding-left: .3em;
+  }
+}

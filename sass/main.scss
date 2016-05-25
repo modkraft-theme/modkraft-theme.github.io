@@ -50,7 +50,10 @@ body {
 }
 
 
-
+img {
+  width: 100%;
+  height: auto;
+}
 
 img, a, div {
     -ms-interpolation-mode: bicubic;
@@ -61,6 +64,11 @@ img, a, div {
     max-width: 64rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+label {
+  text-transform: uppercase;
+  font-weight: $heading-font-weight;
 }
 
 header {}
@@ -181,12 +189,17 @@ footer {
 
 }
 
-
+.article--full__image--body {
+  margin: 0 -8rem;
+  .article--full__image-text {
+    margin-bottom: 1.8rem;
+  }
+}
 
 .article--full__quote {
 float: left;
 width: 60%;
-margin: 2rem 0rem 1rem -8rem;
+margin: 1rem 0rem 1rem -8rem;
 padding: 1.2rem 3rem 1rem;
 border-left: 6px solid $brand-color;
 
@@ -202,10 +215,33 @@ border-left: 6px solid $brand-color;
       font-weight: 300;
       margin: 0;
     }
-
-
-
 }
+
+.article--full__quote--right {
+  float: right;
+  margin: 1rem -8rem 1rem 0;
+  border-right: 6px solid $brand-color;
+  border-left: none;
+  text-align: right;
+}
+
+
+.article--full__facts {
+float: left;
+width: 50%;
+margin: 1rem 0rem 1rem -8rem;
+padding: 1.2rem 4.5rem 1rem 3rem;
+border-left: 6px solid $brand-color;
+font-size: .9rem;
+
+    .quote-sender {
+      color: #aaa;
+      font-weight: 300;
+      margin: 0;
+    }
+}
+
+
 
 .article--full__advert {
     width: 300px;
@@ -389,6 +425,20 @@ section {
     }
   }
 
+}
+
+
+.article--full__donate {
+  font-size: .9rem;
+  margin: 2rem 0;
+
+  &:before {
+    content: '';
+    width: 100%;
+    border-top: 1px solid #000;
+    display: block;
+    padding: 1rem 0;
+  }
 }
 
 
