@@ -3,18 +3,18 @@
 
 $heading-font-family: "Roboto Condensed", Helvetica, sans-serif ;
 $heading-font-weight: 700;
-$heading-line-height: 1.25;
+$heading-line-height: 1.35;
 
 $font-family: 'Roboto', Helvetica, sans-serif;
-$body-font-size: 120%;
-$line-height: 1.65;
+$body-font-size: 18px;
+$line-height: 1.6;
 $body-font-weight: 300;
 
 
 
 $h1: 3rem;
 $h2: 2rem;
-$h3: 1.25rem;
+$h3: 1.7rem;
 $h4: 1rem;
 $h5: .875rem;
 $h6: .75rem;
@@ -34,6 +34,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
 }
 
-a {
-  color: $red;
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
 }
+
+a { color: $brand-color; }

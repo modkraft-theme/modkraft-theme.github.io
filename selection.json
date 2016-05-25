@@ -18,7 +18,8 @@
 				"id": 15,
 				"order": 26,
 				"prevSize": 20,
-				"name": "warning"
+				"name": "warning",
+				"code": 59648
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -41,7 +42,8 @@
 				"id": 34,
 				"order": 23,
 				"prevSize": 20,
-				"name": "chevron-down"
+				"name": "chevron-down",
+				"code": 59649
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -64,7 +66,8 @@
 				"id": 35,
 				"order": 21,
 				"prevSize": 20,
-				"name": "chevron-left"
+				"name": "chevron-left",
+				"code": 59650
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -87,7 +90,8 @@
 				"id": 36,
 				"order": 20,
 				"prevSize": 20,
-				"name": "chevron-right"
+				"name": "chevron-right",
+				"code": 59651
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -110,7 +114,8 @@
 				"id": 37,
 				"order": 18,
 				"prevSize": 20,
-				"name": "chevron-small-down"
+				"name": "chevron-small-down",
+				"code": 59652
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -133,7 +138,8 @@
 				"id": 38,
 				"order": 16,
 				"prevSize": 20,
-				"name": "chevron-small-left"
+				"name": "chevron-small-left",
+				"code": 59653
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -156,7 +162,8 @@
 				"id": 39,
 				"order": 17,
 				"prevSize": 20,
-				"name": "chevron-small-right"
+				"name": "chevron-small-right",
+				"code": 59654
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -179,7 +186,8 @@
 				"id": 40,
 				"order": 19,
 				"prevSize": 20,
-				"name": "chevron-small-up"
+				"name": "chevron-small-up",
+				"code": 59655
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -202,7 +210,8 @@
 				"id": 45,
 				"order": 22,
 				"prevSize": 20,
-				"name": "chevron-up"
+				"name": "chevron-up",
+				"code": 59656
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -225,7 +234,8 @@
 				"id": 46,
 				"order": 43,
 				"prevSize": 20,
-				"name": "chevron-with-circle-down"
+				"name": "chevron-with-circle-down",
+				"code": 59657
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -248,7 +258,8 @@
 				"id": 47,
 				"order": 44,
 				"prevSize": 20,
-				"name": "chevron-with-circle-left"
+				"name": "chevron-with-circle-left",
+				"code": 59658
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -271,7 +282,8 @@
 				"id": 48,
 				"order": 45,
 				"prevSize": 20,
-				"name": "chevron-with-circle-right"
+				"name": "chevron-with-circle-right",
+				"code": 59659
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -294,7 +306,8 @@
 				"id": 49,
 				"order": 46,
 				"prevSize": 20,
-				"name": "chevron-with-circle-up"
+				"name": "chevron-with-circle-up",
+				"code": 59660
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -317,7 +330,8 @@
 				"id": 56,
 				"order": 24,
 				"prevSize": 20,
-				"name": "controller-record"
+				"name": "controller-record",
+				"code": 59661
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -340,7 +354,8 @@
 				"id": 57,
 				"order": 25,
 				"prevSize": 20,
-				"name": "controller-stop"
+				"name": "controller-stop",
+				"code": 59662
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -363,7 +378,8 @@
 				"id": 61,
 				"order": 27,
 				"prevSize": 20,
-				"name": "dots-three-vertical"
+				"name": "dots-three-vertical",
+				"code": 59663
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -386,7 +402,8 @@
 				"id": 218,
 				"order": 28,
 				"prevSize": 20,
-				"name": "magnifying-glass"
+				"name": "magnifying-glass",
+				"code": 59664
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -409,7 +426,8 @@
 				"id": 226,
 				"order": 47,
 				"prevSize": 20,
-				"name": "message"
+				"name": "message",
+				"code": 59665
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -432,7 +450,8 @@
 				"id": 308,
 				"order": 31,
 				"prevSize": 20,
-				"name": "typing"
+				"name": "typing",
+				"code": 59666
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -455,7 +474,8 @@
 				"id": 311,
 				"order": 29,
 				"prevSize": 20,
-				"name": "user"
+				"name": "user",
+				"code": 59667
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -478,7 +498,8 @@
 				"id": 312,
 				"order": 30,
 				"prevSize": 20,
-				"name": "users"
+				"name": "users",
+				"code": 59668
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -501,7 +522,8 @@
 				"id": 315,
 				"order": 42,
 				"prevSize": 20,
-				"name": "vinyl"
+				"name": "vinyl",
+				"code": 59669
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -524,7 +546,8 @@
 				"id": 359,
 				"order": 33,
 				"prevSize": 20,
-				"name": "facebook-with-circle"
+				"name": "facebook-with-circle",
+				"code": 59670
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -547,7 +570,8 @@
 				"id": 361,
 				"order": 39,
 				"prevSize": 20,
-				"name": "flickr-with-circle"
+				"name": "flickr-with-circle",
+				"code": 59671
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -570,7 +594,8 @@
 				"id": 365,
 				"order": 36,
 				"prevSize": 20,
-				"name": "google-with-circle"
+				"name": "google-with-circle",
+				"code": 59672
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -593,7 +618,8 @@
 				"id": 367,
 				"order": 38,
 				"prevSize": 20,
-				"name": "instagram-with-circle"
+				"name": "instagram-with-circle",
+				"code": 59673
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -616,7 +642,8 @@
 				"id": 371,
 				"order": 34,
 				"prevSize": 20,
-				"name": "linkedin-with-circle"
+				"name": "linkedin-with-circle",
+				"code": 59674
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -639,7 +666,8 @@
 				"id": 373,
 				"order": 37,
 				"prevSize": 20,
-				"name": "pinterest-with-circle"
+				"name": "pinterest-with-circle",
+				"code": 59675
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -662,7 +690,8 @@
 				"id": 380,
 				"order": 35,
 				"prevSize": 20,
-				"name": "twitter-with-circle"
+				"name": "twitter-with-circle",
+				"code": 59676
 			},
 			"setIdx": 0,
 			"setId": 4,
@@ -670,6 +699,9 @@
 		}
 	],
 	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
 	"preferences": {
 		"showGlyphs": true,
 		"showQuickUse": true,
@@ -694,7 +726,12 @@
 			"color": 0,
 			"bgColor": 16777215,
 			"classSelector": ".icon",
-			"autoHost": true
+			"autoHost": false,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"sprite": false,
+			"polymer": false
 		},
 		"historySize": 100,
 		"showCodes": true,
