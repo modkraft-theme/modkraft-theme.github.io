@@ -15,3 +15,47 @@ $desktop-width: 1024px;
     @content;
   }
 }
+
+/* COLORS */
+
+$brand-color: #C7505A;
+$link-color: $brand-color;
+
+$color__text: #454545;
+
+
+/* ICONS */
+
+$icon__linkedin: '\e91a';
+$icon__twitter: '\e91c';
+$icon__facebook: '\e916';
+$icon__googleplus: '\e918';
+$icon__instagram: '\e919';
+$icon__more-dropdown: '\e917';
+
+$icon__donut: '\e915';
+$icon__search: '\e910';
+$icon__warning: '\e900';
+
+$icon__circle-down: '\e909';
+$icon__circle-up: '\e90c';
+$icon__circle-left: '\e90a';
+$icon__circle-right: '\e90b';
+
+$icon__camera: '\e91d';
+
+
+@mixin icon($icon) {
+  font-family: 'MyIcons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: $icon;
+}

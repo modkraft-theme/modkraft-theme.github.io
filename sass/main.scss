@@ -4,7 +4,6 @@
 
 
 @import "tools/my-mixins";
-@import "tools/my-colors";
 @import "typography/my-typography";
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100|Roboto+Slab:400,100,300,700);
@@ -37,7 +36,7 @@
 html {}
 
 body {
-  color: #333;
+  color: $color__text;
   background-color: #f5f5f5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -148,15 +147,12 @@ footer {
 }
 
 .article--full__body {
-  padding-bottom: 3rem;
 }
 
 
 
 .article--full__resume {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #000;
+
   font-weight: 500;
   font-size: 120%;
 }
@@ -170,9 +166,24 @@ footer {
   font-size: 80%;
   color: #888;
   border-bottom: 1px solid #ddd;
-  padding: 1rem 0;
+  padding: 1rem 0rem;
+
+  p {
+    position: relative;
+    padding-left: 23px;
+    margin: 0;
+
+  &:before {
+      @include icon($icon__camera);
+       position: absolute;
+       left:0;
+       top:4px;
+  }
+  }
 
 }
+
+
 
 .article--full__quote {
 float: left;
@@ -279,6 +290,77 @@ section {
 .row {
   margin: 0 -1rem;
   overflow: hidden;
+}
+
+.article--full__share {
+margin: 2rem 0;
+}
+
+.share-count {
+  margin-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  color: #aaa;
+
+  .share-count__num {
+    font-weight: $heading-font-weight;
+    color: $color__text;
+  }
+}
+
+
+
+.icon-items {
+  overflow: hidden;
+  display: inline-block;
+}
+
+.icon-item {
+  margin-right: 5px;
+  font-size: 30px;
+  float: left;
+  height: 30px;
+  width: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: $color__text;
+  }
+}
+
+.icon-item__facebook {
+  &:before {
+      @include icon($icon__facebook);
+  }
+}
+
+.icon-item__twitter {
+  &:before {
+      @include icon($icon__twitter);
+  }
+}
+
+.icon-item__linkedin {
+  &:before {
+      @include icon($icon__linkedin);
+  }
+}
+
+.icon-item__googleplus {
+  &:before {
+      @include icon($icon__googleplus);
+  }
+}
+
+.icon-item__more-dropdown {
+  &:before {
+      @include icon($icon__more-dropdown);
+  }
 }
 
 /* ARTICL--TEASER */
