@@ -4,6 +4,7 @@
 
 @import "typography/my-typography";
 @import "tools/my-mixins";
+@import "tools/my-colors";
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100|Roboto+Slab:400,100,300,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
@@ -31,13 +32,22 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-size: 1rem;
   font-family: $font-family;
+  line-height: $line-height;
+  font-weight: $body-font-weight;
+  font-size: $body-font-size;
+  letter-spacing: 0.01rem;
 }
 
 img, a, div {
     -ms-interpolation-mode: bicubic;
     image-rendering: optimizeQuality;
+}
+
+.container {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {}
@@ -46,6 +56,13 @@ footer {
   height: 150px;
   background-color: #e5e5e5;
   margin-top: 10rem;
+}
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
 }
 
 .placeholder {
@@ -96,15 +113,30 @@ footer {
 /* ARTICL--FULL */
 
 .article--full__header {
-  margin-bottom: 2rem;
+  margin: 0 8rem;
 }
 
 .article--full__title {
 
 }
 
+.article--full__meta {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.related-content-wrapper,
+.article--full__body {
+  margin: 0 8rem 3rem;
+}
+
+
+
 .article--full__resume {
-  font-size: 150%;
+  font-size: 130%;
+  font-weight: 300;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #e5e5e5;
@@ -122,6 +154,69 @@ footer {
   color: #888;
 }
 
+.article--full__quote {
+float: left;
+width: 60%;
+margin: 2rem 0rem 1rem -8rem;
+padding: 1rem 3rem;
+border-left: 6px solid #e5e5e5;
+
+  .quote-text {
+    font-size: 150%;
+    font-weight: 600;
+    font-family: $heading-font-family;
+    line-height: $heading-line-height;
+    }
+
+    .quote-sender {
+      font-style: italic;
+      color: #aaa;
+      font-weight: 300;
+      margin: 0;
+    }
+
+
+
+}
+
+.article--full__advert {
+    width: 300px;
+    float: right;
+    margin-left: 3rem;
+}
+
+.section--title {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 0 1rem;
+}
+
+.related-content-wrapper {
+    &:before {
+        content: '';
+        width: 100%;
+        border-top: 1px solid #000;
+        display: block;
+    }
+
+    &:after {
+      content: '';
+      width: 100%;
+      border-bottom: 8px solid #000;
+      display: block;
+      margin: 15px 0 0 0;
+      padding-top: 0;
+    }
+}
+
+
+.related-content-item {}
+
+.related-content-item-bullet {
+  color: $red;
+}
 
 /* ARTICL--TEASER */
 
