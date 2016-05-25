@@ -4,7 +4,6 @@
 
 
 @import "tools/my-mixins";
-@import "tools/my-colors";
 @import "typography/my-typography";
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100|Roboto+Slab:400,100,300,700);
@@ -37,7 +36,7 @@
 html {}
 
 body {
-  color: #333;
+  color: $color__text;
   background-color: #f5f5f5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -172,6 +171,10 @@ footer {
   border-bottom: 1px solid #ddd;
   padding: 1rem 0;
 
+}
+
+.icon-camera:before {
+    @include icon($icon__camera);
 }
 
 .article--full__quote {
