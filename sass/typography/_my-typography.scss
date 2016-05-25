@@ -42,6 +42,12 @@ p {
   margin-bottom: 1.8rem;
 }
 
+::-moz-selection { background: $brand-color !important; }
+::selection { background: $brand-color !important; }
+
+::-moz-selection { color: $color__body-bg !important; }
+::selection { color: $color__body-bg !important; }
+
 a {
   color: $link-color;
   transition: color 0.5s ease-in-out;
