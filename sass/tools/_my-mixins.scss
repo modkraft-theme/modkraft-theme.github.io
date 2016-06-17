@@ -74,6 +74,12 @@ $icon__archive: '\e925';
 $icon__book: '\e926';
 $icon__folder: '\e928';
 
+$icon__wallet: '\e929';
+$icon__new: '\e92f';
+$icon__heart: '\e92d';
+$icon__credit-card: '\e927';
+
+
 
 @mixin icon($icon) {
   font-family: 'MyIcons';

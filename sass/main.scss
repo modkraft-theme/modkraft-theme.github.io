@@ -561,6 +561,19 @@ section {
     display: block;
     padding: 1rem 0;
   }
+
+  p {
+    position: relative;
+    padding-left: 4.2rem;
+  &:before {
+    @include icon($icon__new);
+     position: absolute;
+     left: -3px;
+     top: -5px;
+     font-size: 3.5rem;
+     color: $brand-color;
+  }
+  }
 }
 
 
