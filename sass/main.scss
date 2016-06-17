@@ -114,6 +114,7 @@ footer {
 
 .nav--main {
   height: 80px;
+  margin-bottom: 4rem;
 }
 
 .taxonomy-label--theme {
@@ -137,17 +138,129 @@ footer {
 
 /* ARTICL--FULL */
 
+.inline-pipes-list {
+ list-style-type: none;
+ padding-bottom: 3.5rem;
+ padding-left: 0;
+
+ font-size: .9rem;
+ margin: 1.5rem 0 1.5rem 0;
+ display: block;
+ overflow: hidden;
+ height: 40px;
+ line-height:40px;
+ border-bottom: 1px solid #e5e5e5;
+
+  li {
+    float: left;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+
+
+    &:after {
+      content: '|';
+      margin-right: 10px;
+      margin-left: 10px;
+      color: #ccc;
+      font-weight: 300;
+    }
+
+    &:last-child:after {
+      display: none;
+    }
+  }
+
+
+
+  .theme {
+    padding-left: 15px;
+    position: relative;
+    &:before {
+      @include icon($icon__bookmark);
+       position: absolute;
+       left:-3px;
+       top:3px;
+    }
+  }
+}
+
+
+
+
+
+.author-container {
+  overflow: hidden;
+  font-size: 15px;
+  height: 40px;
+
+  figure {
+    margin: 0 1rem 0 0;
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+
+    img {
+      padding: 5px;
+      border-radius: 20px;
+      background-color: #fff;
+    }
+  }
+
+  .author {
+    padding-right: 18px;
+    position: relative;
+
+
+    &:after {
+      @include icon($icon__chevron-down);
+       position: absolute;
+       right:0;
+       top:2px;
+    }
+  }
+}
+
+
+
+
+.breadcrumbs {
+  list-style-type: none;
+  padding: 0;
+  font-size: .9rem;
+
+  li {
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    margin-right: 0px;
+
+    &:last-child:after {
+      display: none;
+    }
+
+    &:after {
+      @include icon($icon__chevron-small-right);
+       position: absolute;
+       right:0;
+       top:5px;
+    }
+
+  }
+}
+
 .article--full__header {
   margin: 0 8rem;
 }
 
-.article--full__title {
-
+.article--full__title h1 {
+  margin: 1.5rem 0 1.5rem;
+  line-height: 1.25;
 }
 
 .article--full__meta {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -160,7 +273,6 @@ footer {
 
 
 .article--full__resume {
-  font-weight: 500;
   font-size: 120%;
 }
 
@@ -200,7 +312,7 @@ footer {
 .article--full__quote {
 float: left;
 width: 60%;
-margin: 0 0 1rem -8rem;
+margin: 2rem 0 2rem -8rem;
 padding: 1.2rem 3rem 1rem;
 border-left: 6px solid $brand-color;
 
@@ -220,7 +332,7 @@ border-left: 6px solid $brand-color;
 
 .article--full__quote--right {
   float: right;
-  margin: 0 -8rem 1rem 0;
+  margin: 2rem -8rem 2rem 0;
   border-right: 6px solid $brand-color;
   border-left: none;
   text-align: right;
@@ -230,7 +342,7 @@ border-left: 6px solid $brand-color;
 .article--full__facts {
 float: left;
 width: 50%;
-margin: 0 0 1rem -8rem;
+margin: 2rem 0 2rem -8rem;
 padding: .5rem 4.5rem 0 3rem;
 border-left: 6px solid $brand-color;
 font-size: .9rem;
@@ -331,6 +443,18 @@ section {
   display: block;
   overflow: hidden;
 }
+
+
+.comments {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.advert--bottom {
+  margin: 2rem 8rem 0rem;
+
+}
+
 
 .icon-item--info {
   position: relative;
