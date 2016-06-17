@@ -7,32 +7,16 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <script src="kerning.js"></script>
-
+    <script src="js/kerning.js"></script>
 
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <div class="frame--wrapper">
-                <div class="frame--header">
-                    <h2 class="block-title"><a href="#!">Reklame / Topbanner</a></h2></div>
-                <div class="frame--item">
-                    <div class="placeholder advert--main"></div>
-                </div>
-            </div>
 
-            <nav>
-                <div class="frame--wrapper">
-                    <div class="frame--header">
-                        <h2 class="block-title"><a href="#!">Branding + Navigation</a></h2></div>
-                    <div class="frame--item">
-                        <div class="placeholder nav--main"></div>
-                    </div>
-                </div>
+
+            <nav class="nav--main placeholder">
             </nav>
-        </div>
 
 
     </header>
@@ -41,37 +25,62 @@
 
         <article>
             <div class="frame--header">
-                <h2 class="block-title"><a href="#!">Primært indhold</a></h2></div>
 
             <div class="article--full__header">
+              <ol class="breadcrumbs clearfix">
+                <li><a href="#!">Nyheder</a></li>
+                <li><a href="#!">Verden</a></li>
+                <li><a href="#!">Frankrig</a></li>
+
+              </ol>
                 <div class="article--full__title">
                     <h1>Vivamus placerat erat et rutrum lacinia donec venenatis, justo ac ultricies luctus, tellus dui eleifend lorem</h1></div>
-                <div class="article--full__meta">
-                    <div class="">Byline</div> theme, Shared
-                </div>
+                    <div class="article--full__resume">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Aenean eget lobortis purus.
+                    </div>
+
+                    <ul class="inline-pipes-list">
+                    <li class="author-container">
+                      <figure><img src="images/byline-pic.jpg"></figure>
+                      <a href="#!" class="author">Peter Parker</a>
+                    </li>
+
+                    <li class="date">8. juni 2016</li>
+                    <li><a href="#!" class="theme">Oprør i Frankrig</a></li>
+
+                    </ul>
+
+
+
+
+
             </div>
 
+
+
             <div class="article--full__image">
-                <img src="http://placehold.it/1024x512">
+                <img src="images/cannabis.jpg">
                 <div class="article--full__image-text">
                     <p>Pellentesque mattis lacinia orci id lobortis. Phasellus eu turpis libero.</p>
                 </div>
             </div>
 
+
             <div class="article--full__body">
-                <div class="article--full__resume">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Aenean eget lobortis purus.</p>
-                </div>
-                <div class="article--full__share">
-                    <div class="icon-items">
-                        <a href="#!" class="icon-item icon-item__facebook"></a>
-                        <a href="#!" class="icon-item icon-item__twitter"></a>
-                        <a href="#!" class="icon-item icon-item__linkedin"></a>
-                        <a href="#!" class="icon-item icon-item__googleplus"></a>
-                        <a href="#!" class="icon-item icon-item__more-dropdown"></a>
-                        <div class="share-count"><span class="share-count__num">33</span> SHARES</div>
-                    </div>
-                </div>
+              <div class="article--full__share">
+                  <div class="icon-items">
+                      <a href="#!" class="icon-item icon-item__facebook"></a>
+                      <a href="#!" class="icon-item icon-item__twitter"></a>
+                      <a href="#!" class="icon-item icon-item__instagram"></a>
+                      <a href="#!" class="icon-item icon-item__linkedin"></a>
+                      <a href="#!" class="icon-item icon-item__more-dropdown"></a>
+                  </div>
+                  <div class="icon-items--info">
+                      <div class="icon-item--info icon-item--shares"><span class="icon-item--info__num">33</span> Shares</div>
+                      <div class="icon-item--info icon-item--likes"><span class="icon-item--info__num">1.4K</span> Likes</div>
+                      <div class="icon-item--info icon-item--comments"><span class="icon-item--info__num">7</span> Kommentarer</div>
+                  </div>
+              </div>
 
                 <div class="article--full__advert">
                     <div class="frame--header">
@@ -80,6 +89,7 @@
                         <div class="placeholder advert--sidebar"></div>
                     </div>
                 </div>
+
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum,
                     eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
                     sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
@@ -98,20 +108,97 @@
                     eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
                     sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
                     vitae ipsum varius, posuere ligula et, iaculis odio. Mauris nec interdum est. Etiam eget ligula vitae nisi tincidunt consequat. Suspendisse ac augue tempus, facilisis urna a, faucibus metus. Etiam accumsan eget sem non lobortis.</p>
+
+                    <div class="article--full__image--body">
+                        <img src="images/trump.jpg">
+                        <div class="article--full__image-text">
+                            <p>Pellentesque mattis lacinia orci id lobortis. Phasellus eu turpis libero.</p>
+                        </div>
+                    </div>
+
                 <p>Pellentesque mattis lacinia orci id lobortis. Phasellus eu turpis libero. Suspendisse sit amet eros at justo tristique molestie in id tortor. Proin a placerat purus. Donec vel lorem nec enim mollis rutrum. Nam scelerisque enim a mauris
                     cursus sagittis. Morbi nec molestie nulla. Sed euismod erat non auctor sagittis. Etiam nulla nisi, auctor eget dapibus sed, vehicula tempus ante. Nullam vitae accumsan justo. Proin semper nibh felis, et interdum quam mollis vitae.
                     Vivamus tempor bibendum ultrices. Suspendisse hendrerit quam ac massa ultrices, nec gravida ex sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
 
-                    <div class="article--full__share">
-                        <div class="icon-items">
-                            <a href="#!" class="icon-item icon-item__facebook"></a>
-                            <a href="#!" class="icon-item icon-item__twitter"></a>
-                            <a href="#!" class="icon-item icon-item__linkedin"></a>
-                            <a href="#!" class="icon-item icon-item__googleplus"></a>
-                            <a href="#!" class="icon-item icon-item__more-dropdown"></a>
-                            <div class="share-count"><span class="share-count__num">33</span> SHARES</div>
-                        </div>
+                    <h3>Aenean eget lobortis purus</h3>
+
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum,
+                    eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
+                    sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
+                    vitae ipsum varius, posuere ligula et, iaculis odio. Mauris nec interdum est. Etiam eget ligula vitae nisi tincidunt consequat. Suspendisse ac augue tempus, facilisis urna a, faucibus metus. Etiam accumsan eget sem non lobortis.</p>
+
+                    <div class="article--full__quote article--full__quote--right">
+                        <p class="quote-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc.</p>
+                        <p class="quote-sender">Phasellus eu turpis libero.</p>
                     </div>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum,
+                    eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
+                    sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
+                    vitae ipsum varius, posuere ligula et, iaculis odio. Mauris nec interdum est. Etiam eget ligula vitae nisi tincidunt consequat. Suspendisse ac augue tempus, facilisis urna a, faucibus metus. Etiam accumsan eget sem non lobortis.</p>
+
+
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum,
+                    eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
+                    sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
+                    vitae ipsum varius, posuere ligula et, iaculis odio. Mauris nec interdum est. Etiam eget ligula vitae nisi tincidunt consequat. Suspendisse ac augue tempus, facilisis urna a, faucibus metus. Etiam accumsan eget sem non lobortis.</p>
+
+                <div class="article--full__facts">
+                    <h2 class="section--title">fakta</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc.</p>
+
+                    <ul>
+                        <li>Tellus</li>
+                        <li>Libero</li>
+                        <li>Porttitor</li>
+                        <li>Lectus</li>
+                        <li>Consectetur</li>
+                        <li>Adipiscing</li>
+                    </ul>
+
+                    <p>Phasellus eu turpis libero.</p>
+                </div>
+
+                <p>Pellentesque mattis lacinia orci id lobortis. Phasellus eu turpis libero. Suspendisse sit amet eros at justo tristique molestie in id tortor. Proin a placerat purus. Donec vel lorem nec enim mollis rutrum. Nam scelerisque enim a mauris
+                    cursus sagittis. Morbi nec molestie nulla. Sed euismod erat non auctor sagittis. Etiam nulla nisi, auctor eget dapibus sed, vehicula tempus ante. Nullam vitae accumsan justo. Proin semper nibh felis, et interdum quam mollis vitae.
+                    Vivamus tempor bibendum ultrices. Suspendisse hendrerit quam ac massa ultrices, nec gravida ex sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget lobortis purus, in dapibus nunc. Nam ac est suscipit, consectetur metus sed, porta tortor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent rutrum,
+                    eros vitae molestie sollicitudin, tellus libero porttitor lectus, eu volutpat elit sapien et ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin pellentesque erat nec ante lacinia, vel
+                    sollicitudin dolor mattis. Sed vel massa at sapien dignissim finibus. Nunc nec vestibulum nibh. Nulla tempor tempor turpis et efficitur. Donec eget est eget orci pretium imperdiet vitae ut dolor. Nam tincidunt tristique dictum. Morbi
+                    vitae ipsum varius, posuere ligula et, iaculis odio. Mauris nec interdum est. Etiam eget ligula vitae nisi tincidunt consequat. Suspendisse ac augue tempus, facilisis urna a, faucibus metus. Etiam accumsan eget sem non lobortis.</p>
+
+
+
+                <div class="article--full__tags-group">
+                    <div class="article--full__tags article--full__tags--keywords">
+                        <a href="#!">ligestilling</a>
+                        <a href="#!">feminisme</a>
+                    </div>
+                    <div class="article--full__tags article--full__tags--places">
+                        <a href="#!">Tunesien</a>
+                    </div>
+                </div>
+
+                <div class="article--full__share">
+                    <div class="icon-items">
+                        <a href="#!" class="icon-item icon-item__facebook"></a>
+                        <a href="#!" class="icon-item icon-item__twitter"></a>
+                        <a href="#!" class="icon-item icon-item__instagram"></a>
+                        <a href="#!" class="icon-item icon-item__linkedin"></a>
+                        <a href="#!" class="icon-item icon-item__more-dropdown"></a>
+                    </div>
+                    <div class="icon-items--info">
+                        <div class="icon-item--info icon-item--shares"><span class="icon-item--info__num">33</span> Shares</div>
+                        <div class="icon-item--info icon-item--likes"><span class="icon-item--info__num">1.4K</span> Likes</div>
+                        <div class="icon-item--info icon-item--comments"><span class="icon-item--info__num">7</span> Kommentarer</div>
+                    </div>
+                </div>
+                <div class="article--full__donate">
+                    Tak fordi du bruger Modkraft. Vi håber du har læst noget interessant eller oplysende. Du er velkommen til at støtte Modkraft med et beløb via MobilePay: 36397331
+                </div>
         </article>
 
         <section class="attached-content-wrapper">
@@ -159,6 +246,21 @@
                     <h1><a href="#!">Nam ac est suscipit, consectetur metus</a></h1>
                 </div>
             </div>
+
+
+        </section>
+
+<div class="advert--bottom">
+  <img src="http://placehold.it/768x250"></img>
+</div>
+
+        <section class="related-content-wrapper">
+          <h2 class="section--title">Kommentarer</h2>
+<div class="comments placeholder"></div>
+          <div class="comments placeholder"></div>
+          <div class="comments placeholder"></div>
+          <div class="comments placeholder"></div>
+          <div class="comments placeholder"></div>
         </section>
 
 
@@ -168,99 +270,99 @@
 
 
         <div class="clearfix mxn2">
-            <div class="page-section page-section--overview">
-                <div class="sm-col sm-col-12 px2">
-                    <h2 class="block-title"><a href="#!">Overblik</a></h2>
-                </div>
-            </div>
-            <div class="sm-col sm-col-4 px2">
-                <div class="frame--wrapper">
-                    <div class="frame--header">
-                        <h2 class="block-title"><a href="#!">Nyheder</a></h2></div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sm-col sm-col-4 px2">
-                <div class="frame--wrapper">
-                    <div class="frame--header">
-                        <h2 class="block-title"><a href="#!">Magasin</a></h2></div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="sm-col sm-col-4 px2">
-                <div class="frame--wrapper">
-                    <div class="frame--header">
-                        <h2 class="block-title"><a href="#!">Blogs</a></h2></div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                    <div class="frame--item">
-                        <div class="placeholder article--teaser__small"></div>
-                    </div>
-                </div>
-            </div>
+            <div class="sm-col sm-col-12 px2">
+                <section class="page-section page-section--overview">
+                    <h2 class="section--title">Overblik</h2>
+                    <div class="clearfix mxn2">
+                        <div class="sm-col sm-col-4 px2">
+                            <div class="frame--wrapper">
+                                <div class="frame--header">
+                                    <h2 class="block-title"><a href="#!">Nyheder</a></h2></div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sm-col sm-col-4 px2">
+                            <div class="frame--wrapper">
+                                <div class="frame--header">
+                                    <h2 class="block-title"><a href="#!">Magasin</a></h2></div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sm-col sm-col-4 px2">
+                            <div class="frame--wrapper">
+                                <div class="frame--header">
+                                    <h2 class="block-title"><a href="#!">Blogs</a></h2></div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                                <div class="frame--item">
+                                    <div class="placeholder article--teaser__small"></div>
+                                </div>
+                            </div>
+                        </div>
 
-
-        </div>
-        <!-- Page-section END -->
+                    </div>
+                </section>
+                <!-- Page-section END -->
+            </div>
         </div>
         <!-- Clearix END -->
 
-    </div>
-    <!-- Container END -->
+        </div>
+        <!-- Container END -->
 
 
 
 
-    <footer>
+        <footer>
 
-    </footer>
+        </footer>
 
 </body>
 

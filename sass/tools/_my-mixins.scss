@@ -22,6 +22,8 @@ $brand-color: #C7505A;
 $link-color: $brand-color;
 
 $color__text: #454545;
+$color__body-bg: #f5f5f5;
+
 
 
 /* ICONS */
@@ -31,7 +33,15 @@ $icon__twitter: '\e91c';
 $icon__facebook: '\e916';
 $icon__googleplus: '\e918';
 $icon__instagram: '\e919';
+
 $icon__more-dropdown: '\e917';
+$icon__forward: '\e91e';
+
+$icon__thumbs-up: '\e920';
+$icon__thumbs-down: '\e91f';
+
+$icon__massage: '\e911';
+$icon__typing: '\e912';
 
 $icon__donut: '\e915';
 $icon__search: '\e910';
@@ -42,7 +52,27 @@ $icon__circle-up: '\e90c';
 $icon__circle-left: '\e90a';
 $icon__circle-right: '\e90b';
 
+$icon__chevron-small-down: '\e904';
+$icon__chevron-small-up: '\e907';
+$icon__chevron-small-left: '\e905';
+$icon__chevron-small-right: '\e906';
+
+$icon__chevron-down: '\e901';
+$icon__chevron-up: '\e908';
+$icon__chevron-left: '\e902';
+$icon__chevron-right: '\e903';
+
 $icon__camera: '\e91d';
+
+$icon__tag: '\e922';
+
+$icon__user: '\e913';
+
+$icon__bookmark: '\e923';
+$icon__open-book: '\e924';
+$icon__archive: '\e925';
+$icon__book: '\e926';
+$icon__folder: '\e928';
 
 
 @mixin icon($icon) {

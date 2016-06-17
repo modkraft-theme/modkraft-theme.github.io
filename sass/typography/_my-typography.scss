@@ -38,6 +38,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
 }
 
+p {
+  margin-bottom: 1.8rem;
+}
+
+::-moz-selection { background: $brand-color !important; }
+::selection { background: $brand-color !important; }
+
+::-moz-selection { color: $color__body-bg !important; }
+::selection { color: $color__body-bg !important; }
 
 a {
   color: $link-color;
@@ -51,5 +60,15 @@ a {
     -ms-transition: color 0.5s ease-in-out;
     -moz-transition: color 0.5s ease-in-out;
     -webkit-transition: color 0.5s ease-in-out;
+  }
+}
+
+
+ul {
+  padding-left: 2rem;
+  margin-block-start: 1.8em;
+  margin-block-end: 1.8em;
+  li {
+    padding-left: .3em;
   }
 }
