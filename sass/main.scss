@@ -97,7 +97,6 @@ footer {
 }
 
 .frame--header {
-  margin: 1rem 0;
   .block-title {
     font-size: .85rem;
     font-weight: 300;
@@ -143,7 +142,7 @@ footer {
  padding-bottom: 4rem;
  padding-left: 0;
 
- font-size: .9rem;
+ font-size: .8rem;
  margin: 1.5rem 0 1.5rem 0;
  display: block;
  overflow: hidden;
@@ -179,8 +178,8 @@ footer {
     &:before {
       @include icon($icon__bookmark);
        position: absolute;
-       left:-3px;
-       top:3px;
+       left:-2px;
+       top:2px;
     }
   }
 }
@@ -191,7 +190,6 @@ footer {
 
 .author-container {
   overflow: hidden;
-  font-size: 15px;
   height: 40px;
 
   figure {
